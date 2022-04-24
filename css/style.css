@@ -61,6 +61,13 @@ p {
     height: 100vh;
 }
 
+a.contactLink {
+    color: #343A40;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
 a.link {
     font-weight: 500;
 }
@@ -77,6 +84,15 @@ a.link:hover {
     text-decoration: underline;
     font-weight: 600;
 }
+
+.jumbotron {
+   background-color: #638475;
+  }
+
+.bgKindred {
+    background-color:#DA6944;
+}
+
 
 /* Height for devices larger than 576px */
 @media (min-width: 992px) {
