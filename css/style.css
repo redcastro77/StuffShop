@@ -1,3 +1,7 @@
+body {
+    background-color: #D6D5D8;
+}
+
 #background {
     background-image: url(../images/bunnies.JPG);
     height: 100vh;
@@ -22,17 +26,11 @@ a {
     font-weight: 600;
 }
 
-
 .navbar-brand {
     font-weight: 600;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Rajdhani', sans-serif;
 }
 
@@ -87,11 +85,6 @@ a.link:hover {
     font-weight: 600;
 }
 
-/* .jumbotron {
-   background-color: #638475;
-  } */
-
-
 .jumbotron {
     background-image: url("/images/zoo.jpg");
     background-size: cover;
@@ -110,10 +103,35 @@ a.link:hover {
     background-color: #DA6944;
 }
 
-
 /* Height for devices larger than 576px */
 @media (min-width: 992px) {
     #background {
         /* margin-top: -58.59px; */
     }
+}
+
+.card-body h5 {
+    font-weight: 700;
+}
+
+.card-body p {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+small {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 100%;
+}
+
+#chatButton {
+    display: flex;
+    justify-content: center;
+}
+
+marquee {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #D6D5D8;
 }
