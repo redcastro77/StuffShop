@@ -50,11 +50,13 @@ p {
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.2;
+    color: #ffffff;
 }
 
 .lead {
     font-size: 1.25rem;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .mask {
@@ -62,7 +64,7 @@ p {
 }
 
 a.contactLink {
-    color: #343A40;
+    color: #d9d9d9;
     font-size: 1.25rem;
     font-weight: 500;
 
@@ -85,12 +87,27 @@ a.link:hover {
     font-weight: 600;
 }
 
-.jumbotron {
+/* .jumbotron {
    background-color: #638475;
-  }
+  } */
+
+
+.jumbotron {
+    background-image: url("/images/zoo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerBG {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.25rem;
+    /* height: 25vh; */
+
+}
 
 .bgKindred {
-    background-color:#DA6944;
+    background-color: #DA6944;
 }
 
 
