@@ -11,9 +11,19 @@ body {
     opacity: 90%;
 }
 
+#greenBackground {
+    background-image: url(../images/greenbunnies.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    opacity: 90%;
+}
+
 a {
     font-family: 'Rajdhani', sans-serif;
     font-size: 18px;
+    font-weight: 600;
 }
 
 
