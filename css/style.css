@@ -91,7 +91,7 @@ a.link:hover {
 }
 
 .jumbotron {
-    background-image: url("images/zoo.jpg");
+    background-image: url("../images/zoo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
