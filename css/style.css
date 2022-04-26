@@ -127,6 +127,29 @@ small {
     font-size: 100%;
 }
 
+.czech {
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.btn-outline-cat {
+    border-color: #c64373;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+.btn-outline-cat a {
+    color: #c64373;
+}
+  .btn-outline-cat:hover {
+    background-color: #c64373;
+    border-color: #c64373;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  .btn-outline-cat:hover a {
+    color: #ffffff;
+
+
 #chatButton {
     display: flex;
     justify-content: center;
