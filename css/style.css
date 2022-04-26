@@ -99,7 +99,7 @@ a.link:hover {
 }
 
 .containerBG {
-    padding: 100px;  
+    padding: 100px;
 }
 
 .bgKindred {
@@ -135,29 +135,24 @@ small {
 .btn-outline-cat {
     border-color: #c64373;
     font-family: 'Rajdhani', sans-serif;
-  }
+}
 
 .btn-outline-cat a {
     color: #c64373;
 }
-  .btn-outline-cat:hover {
+
+.btn-outline-cat:hover {
     background-color: #c64373;
     border-color: #c64373;
     font-family: 'Rajdhani', sans-serif;
-  }
+}
 
-  .btn-outline-cat:hover a {
+.btn-outline-cat:hover a {
     color: #ffffff;
 
-
-#chatButton {
-    display: flex;
-    justify-content: center;
-}
-
 marquee {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color: #D6D5D8;
-}
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #D6D5D8;
+    }
